@@ -21,7 +21,7 @@ Este proyecto implementa los axiomas fundamentales de TIE (red cúbica, Motor Ab
 - **Masas del Protón y Neutrón** (con error < 0.1% en unidades de masa del electrón).
 
 ## 🛠️ Cómo Ejecutar el Código
-
+Opción 1:
 Esta simulación está escrita en **Lean 4**. Para ejecutarla en tu propio ordenador, sigue estos pasos:
 
 1.  **Instala Lean 4**: Sigue la guía oficial en [lean-lang.org](https://lean-lang.org/). La forma más sencilla es usando el script `elan`.
@@ -29,3 +29,10 @@ Esta simulación está escrita en **Lean 4**. Para ejecutarla en tu propio orden
     ```bash
     git clone https://github.com/RALC-TIE-CREATOR/TIE-Simulation.git
     cd TIE-Simulation
+Opción 2:
+1.  Descarga el archivo de este respositorio llamado "TIE.lean".
+2.  Abre Lean 4 desde tu explorador de internet (https://lean-lang.org/).
+3.  En el menú del lado derecho, busca la opcion que dice: "Load"
+4.  Luego usa la opción "Load file from disk"
+5.  Localiza en un equipo la ubicación donde guardaste "TIE.lean" y cargalo.
+6.  Visualiza la información generada.
