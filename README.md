@@ -6,7 +6,7 @@
 
 ## ⚠️ Aviso Importante
 
-Este repositorio contiene una **simulación computacional** de los postulados de la Teoría de la Infraestructura Espacial (TIE). **No se presenta como una teoría científica validada**, sino como un **prototipo funcional** y una **herramienta de exploración conceptual**.
+Este repositorio contiene el código fuente de una **simulación computacional** de los postulados de la Teoría de la Infraestructura Espacial (TIE). **No se presenta como una teoría científica validada**, sino como un **prototipo funcional** y una **herramienta de exploración conceptual**.
 
 Invitamos a físicos, matemáticos y científicos de la computación a examinar el código, modificar los parámetros y explorar las consecuencias emergentes de este modelo de universo.
 
@@ -22,22 +22,10 @@ Este proyecto implementa los axiomas fundamentales de TIE (red cúbica, Motor Ab
 
 ## 🛠️ Cómo Ejecutar el Código
 
-La forma más fácil de ejecutar esta simulación es usar **Gitpod**, un entorno de desarrollo en la nube.
+Esta simulación está escrita en **Lean 4**. Para ejecutarla en tu propio ordenador, sigue estos pasos:
 
-1. Haz clic en el siguiente botón: [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/RALC-TIE-CREATOR/TIE-Simulation)
-2.  Inicia sesión con tu cuenta de GitHub.
-3.  Espera a que el entorno se cargue (la primera vez tarda unos minutos).
-4.  En el explorador de archivos de la izquierda, abre el archivo `TIE.lean`.
-5.  Observa el panel "Lean Infoview" a la derecha para ver los resultados de las simulaciones (los `#eval`).
-
-## 🤔 ¿Por qué Lean 4?
-
-Lean 4 no es solo un lenguaje de programación; es un **asistente de pruebas**. Esto significa que el código no solo se ejecuta, sino que se verifica lógicamente. El objetivo a largo plazo es formalizar completamente los axiomas de TIE y demostrar sus teoremas de forma rigurosa.
-
-## 📜 Licencia
-
-Este proyecto se comparte bajo la licencia **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Eres libre de compartir y adaptar el material, siempre que se otorgue el crédito apropiado al autor.
-
-## ✉️ Contacto
-
-Para cualquier pregunta, colaboración o comentario, por favor contacta a Rubén A. Lecona Curto (R@LC) en ralc007@hotmail.com.
+1.  **Instala Lean 4**: Sigue la guía oficial en [lean-lang.org](https://lean-lang.org/). La forma más sencilla es usando el script `elan`.
+2.  **Clona este repositorio**:
+    ```bash
+    git clone https://github.com/RALC-TIE-CREATOR/TIE-Simulation.git
+    cd TIE-Simulation
