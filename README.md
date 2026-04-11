@@ -19,8 +19,17 @@ Este proyecto implementa los axiomas fundamentales de TIE (red cúbica, Motor Ab
 - **Energía Oscura (`Λ`)** como un residuo de eficiencia de la red (`5%`).
 - **Ley de Gravedad (`1/r²`)** emergente de la red.
 - **Masas del Protón y Neutrón** (con error < 0.1% en unidades de masa del electrón).
+- **Teoremas formales verificados**: La ley de gravedad `1/r²` y otras propiedades estructurales han sido demostradas matemáticamente dentro de Lean 4.
 
-## 🛠️ Cómo Ejecutar el Código
+### 🏆 Logros Clave de esta Simulación
+
+| Categoría | Resultado |
+| :--- | :--- |
+| **Teoremas Demostrados** | 6 (incluyendo Ley de Gravedad `1/r²`) |
+| **Predicciones Numéricas** | 5 (respaldadas por `#eval`) |
+| **Axiomas Formales** | 1 (Periodicidad del Motor Absoluto) |
+
+#### 🛠️ Cómo Ejecutar el Código
 Opción 1:
 Esta simulación está escrita en **Lean 4**. Para ejecutarla en tu propio ordenador, sigue estos pasos:
 
@@ -35,4 +44,4 @@ Opción 2:
 3.  En el menú del lado derecho, busca la opcion que dice: "Load"
 4.  Luego usa la opción "Load file from disk"
 5.  Localiza en un equipo la ubicación donde guardaste "TIE.lean" y cargalo.
-6.  Visualiza la información generada.
+6.  Visualiza la información generada en el panel (a la derecha del editor). Allí verás los resultados de las simulaciones (`#eval`) como "📏 Tamaño del píxel fundamental, etc..."
